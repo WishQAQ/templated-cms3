@@ -1,0 +1,1 @@
+<a href="[field:typelink/]" class="clic">点击了解</a>

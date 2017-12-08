@@ -1,0 +1,567 @@
+/* 魔客吧（moke8.com）做最好的织梦整站模板下载网站 */
+@charset "utf-8";
+/* CSS Document */
+* {
+	font-family: "微软雅黑"
+}
+body, h1, h2, h3, h4, h5, ul, li, dl, dt, dd, input {
+	margin: 0;
+	padding: 0;
+}
+a, form {
+	border: none;
+	display: block
+}
+img {
+	border: none;
+}
+a, ul, li, h1, h2, dl, dt, dd {
+	list-style: none;
+	text-decoration: none;
+}
+.h-top {
+	background-color: #ececec;
+	height: 24px;
+}
+.header {
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+.fl {
+	color: #7b7a7a;
+	font-size: 12px;
+	float: left;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+.top-right {
+	float: right;
+	width: 173px;
+	color: #7b7a7a;
+	font-size: 12px;
+}
+.top-right a {
+	display: inline;
+	color: #7b7a7a;
+	font-size: 12px;
+	margin-right: 5px;
+	line-height: 24px;
+}
+.top-right a img {
+	float: left;
+	margin-left: 10px;
+	margin-top: 4px;
+}
+/*顶部欢迎结束*/
+
+.nav-box {
+	background: white;
+	height: 90px
+}
+.nav {
+	width: 1100px;
+	margin: 0 auto
+}
+.nav ul {
+	width: 1100px;
+	margin: 0 auto;
+	overflow: hidden
+}
+.nav ul li {
+	width: 120px;
+	float: left;
+}
+.nav ul li a {
+	width: 120px;
+	line-height: 90px;
+	font-size: 16px;
+	text-align: center;
+	color: #000
+}
+.nav ul .one {
+	width: 260px
+}
+.nav ul li .col {
+	color: #20488e
+}
+.nav ul li a:hover {
+	color: #20488e;
+	font-size: 18px
+}
+.nav ul .one img {
+	margin-top: 26px
+}
+/*nav结束*/
+
+.nav-banner {
+	position: relative;
+	margin: 0 auto;
+	height: 630px;
+	overflow: hidden;
+	width: 100%;
+}
+.banner {
+	width: 1920px;
+	height: 630px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -960px;
+}
+.banner ul {
+	width: 1920px;
+	height: 630px;
+}
+.banner ul li {
+	width: 1920px;
+	height: 630px;
+}
+.banner ul li img {
+	width: 1920px;
+	height: 630px;
+}
+.small {
+	position: absolute;
+	left: 50%;
+	bottom: 10%;
+	cursor: pointer
+}
+.small a {
+	width: 40px;
+	height: 4px;
+	background-color: white;
+	float: left;
+	margin: 0 8px;
+	line-height: 16px;
+	font-size: 12px;
+	text-align: center
+}
+.small .small_s {
+	background-color: #20488e
+}
+/*banner结束*/
+
+.fuwu-box {
+	height: 600px;
+	overflow: hidden
+}
+.fuwu {
+	height: 420px;
+	background: #272727;
+}
+.fuw {
+	width: 1100px;
+	margin: 0 auto;
+	height: 600px
+}
+.fuw h2 {
+	background: url(../images/fuwu.png);
+	width: 1100px;
+	height: 230px
+}
+.fuw ul {
+	width: 1100px;
+	height: 366px;
+	overflow: hidden
+}
+.fuw ul li {
+	width: 366px;
+	height: 366px;
+	float: left;
+}
+.fuw ul li p {
+	font-size: 16px;
+	color: white;
+	margin-top: 230px;
+	padding: 0;
+	width: 280px;
+	margin-left: auto;
+	margin-right: auto
+}
+.fu1 {
+	background: url(../images/fu01.png)
+}
+.fu2 {
+	background: url(../images/fu02.png)
+}
+.fu3 {
+	background: url(../images/fu03.png)
+}
+/*服务结束*/
+
+.pro-box {
+	height: 1040px
+}
+.pro {
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto
+}
+.pro h2 {
+	background: url(../images/pro-nav.png);
+	width: 1100px;
+	height: 230px
+}
+.pro h3 {
+	width: 1100px;
+	height: 42px;
+	overflow: hidden;
+	font-weight: normal
+}
+.pro h3 p {
+	margin: 0;
+	background: url(../images/fen-nav.png) no-repeat;
+	float: left;
+	width: 130px;
+	height: 42px;
+	line-height: 32px;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+}
+.pro h3 ul {
+	float: right
+}
+.pro h3 ul li {
+	float: left;
+	width: 148px;
+	height: 32px;
+	border: 1px solid #4f4f4f;
+	margin-left: 10px
+}
+.pro h3 ul li:hover {
+	border: #20488e 1px solid
+}
+.pro h3 ul li a {
+	width: 148px;
+	line-height: 32px;
+	text-align: center;
+	font-size: 12px;
+	color: #000
+}
+.pro h3 ul li a:hover {
+	color: white;
+	background: #20488e
+}
+.product {
+	width: 1100px;
+	overflow: hidden
+}
+.product li {
+	float: left;
+	width: 352px;
+	height: 283px;
+	border: 1px #20488e solid;
+	margin: 6px
+}
+.product li a img {
+	width: 352px;
+	height: 283px;
+}
+.clic {
+	width: 88px;
+	height: 50px;
+	margin: 0 auto;
+	font-size: 16px;
+	color: #212121;
+	text-align: center;
+	padding-top: 50px;
+	background: url(../images/dian.png);
+}
+/*产品结束*/
+
+.about-box {
+	height: 430px;
+	overflow: hidden
+}
+.about {
+	height: 260px;
+	background: #212121;
+	padding-top: 90px;
+}
+.abo {
+	width: 1100px;
+	height: 340px;
+	background: #20488e;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative
+}
+.abo img {
+	float: left;
+	width: 480px;
+	height: 336px;
+	position: absolute;
+	left: 20px;
+	top: -20px
+}
+.jie {
+	float: right;
+	width: 550px;
+	margin-top: 50px;
+}
+.jie h2 {
+	background: url(../images/abo-nav.png);
+	width: 213px;
+	height: 40px;
+}
+.jie p {
+	width: 500px;
+	padding: 0;
+	height: 192px
+}
+.jie p .wen {
+	color: #8daadc;
+	font-size: 14px;
+}
+.jie .cli {
+	background: url(../images/abo-biao.png);
+	width: 22px;
+	height: 25px;
+	float: right
+}
+/*about jieshu*/
+
+.cas-box {
+	width: 1100px;
+	height: 680px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden
+}
+.cas-box h2 {
+	background: url(../images/case-nav.png);
+	width: 1100px;
+	height: 210px;
+}
+.cas {
+	overflow: hidden
+}
+.cas li {
+	float: left;
+	width: 520px;
+	height: 200px;
+	margin: 20px 15px;
+}
+.din {
+	width: 414px;
+	height: 200px;
+	background: #20488e;
+	color: white;
+	position: relative
+}
+.din p {
+	width: 240px;
+	height: 200px;
+	position: absolute;
+	left: 20px;
+	overflow: hidden
+}
+.din p a span {
+	font-size: 24px;
+	line-height: 30x;
+	height: 40px;
+	overflow: hidden;
+	display: block;
+	text-align: center
+}
+.din a img {
+	position: absolute;
+	right: -120px;
+	top: 12px;
+}
+/*案例结束*/
+
+.news-box {
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 480px;
+	overflow: hidden
+}
+.news-box h2 {
+	background: url(../images/news-nav.png);
+	width: 1100px;
+	height: 210px;
+}
+.news-box .news1 {
+	float: left;
+	padding-left: 10px;
+}
+.news-box .news2 {
+	float: right;
+	padding-right: 10px
+}
+.news-box ul li {
+	width: 500px;
+}
+.news-box ul li h3 {
+	background: #20488e;
+	width: 500px;
+	height: 54px;
+	line-height: 54px;
+	text-align: center;
+	font-weight: normal;
+	color: white;
+}
+.news-box ul li a {
+	overflow: hidden;
+	height: 30px
+}
+.news-box ul li a p {
+	font-size: 14px;
+	color: #181818;
+	float: left;
+	width: 390px;
+	margin: 0;
+	line-height: 30px;
+}
+.news-box ul li a span {
+	font-size: 13px;
+	color: #6a6a6a;
+	float: right;
+	line-height: 30px;
+}
+/*新闻结束*/
+
+.bottom-box {
+	height: 390px;
+	overflow: hidden;
+	background: #20488e;
+	border-bottom: 1px #9dafcd solid;
+}
+.bottom {
+	width: 1100px;
+	margin: 0 auto;
+	overflow: hidden
+}
+.bot01 {
+	float: left;
+	padding-top: 24px;
+	width: 700px;
+}
+.bot01 h2 {
+	background: url(../images/con-nav.png) no-repeat left center;
+	height: 86px;
+}
+.bot01 ul li {
+	width: 660px;
+	font-size: 16px;
+	color: white;
+	padding-left: 40px;
+	height: 44px;
+	line-height: 44px
+}
+.bot01 ul .mail {
+	background: url(../images/you-biao.png) left center no-repeat
+}
+.bot01 ul .lian {
+	background: url(../images/lian-biao.png) left center no-repeat
+}
+.bot01 ul .phone {
+	background: url(../images/dian-biao.png) left center no-repeat
+}
+.bot01 ul .di {
+	background: url(../images/di-biao.png) left center no-repeat
+}
+.bot02 {
+	float: right;
+	width: 400PX;
+	padding-top: 24px
+}
+.bot02 h2 {
+	background: url(../images/link-nav.png) no-repeat left center;
+	height: 86px;
+}
+.bot02 ul {
+	width: 400px;
+	overflow: hidden;
+	height: 200px
+}
+.bot02 ul a {
+	font-size: 16px;
+	color: white;
+	line-height: 45px;
+	float: left;
+	margin: 0 14px
+}
+.rukou {
+	font-size: 14px;
+	float: right;
+	color: white;
+}
+.botnav-box {
+	height: 50px;
+	background: #20488e;
+}
+.botnav {
+	width: 840px;
+	margin: 0 auto;
+	overflow: hidden
+}
+.botnav li {
+	width: 120px;
+	float: left;
+}
+.botnav li a {
+	width: 120px;
+	line-height: 50px;
+	font-size: 14px;
+	text-align: center;
+	color: white;
+}
+.bei-box {
+	height: 32px;
+	background: url(../images/bei-di.png)
+}
+.bei {
+	width: 280px;
+	margin: 0 auto;
+	overflow: hidden
+}
+.bei p {
+	margin: 0 5px;
+	font-size: 12px;
+	line-height: 32px;
+	float: left
+}
+.pagination-wrapper {
+	margin: 20px 0;
+}
+.pagination {
+	height: 34px;
+	text-align: center;
+}
+.pagination li {
+	display: inline-block;
+	height: 34px;
+	margin-right: 5px;
+}
+.pagination li a {
+	float: left;
+	display: block;
+	height: 32px;
+	line-height: 32px;
+	padding: 0 12px;
+	font-size: 16px;
+	border: 1px solid #dddddd;
+	color: #555555;
+	text-decoration: none;
+}
+.pagination li a:hover {
+	background: #f5f5f5;
+	color: #0099ff;
+}
+.pagination li.thisclass {
+	background: #09f;
+	color: #fff;
+}
+.pagination li.thisclass a, .pagination li.thisclass a:hover {
+	background: transparent;
+	border-color: #09f;
+	color: #fff;
+	cursor: default;
+}
